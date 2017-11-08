@@ -1,6 +1,6 @@
 package model;
 
-public class Console {
+public class ArtInventory {
 
     private int userID;
     private int loginID;
@@ -15,7 +15,7 @@ public class Console {
     private String artistInfo;
     private String artDescription;
 
-    public Console(int userID, int loginID, int workerID, int artID, int artistID, String firstName, String lastName, String password, String artName, String artistName, String artistInfo, String artDescription) {
+    public ArtInventory(int userID, int loginID, int workerID, int artID, int artistID, String firstName, String lastName, String password, String artName, String artistName, String artistInfo, String artDescription) {
         this.userID = userID;
         this.loginID = loginID;
         this.workerID = workerID;
@@ -128,7 +128,7 @@ public class Console {
 
     @Override
     public String toString() {
-        return "Console{" +
+        return "ArtInventory{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", password='" + password + '\'' +
